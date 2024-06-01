@@ -3,7 +3,7 @@ import React from 'react'
 const nav = () => {
   return (
     <>
-      <nav id='desktop-nav' className='hidden md:flex justify-between bg-transparent mx-6'>
+      <nav id='desktop-nav' className='hidden md:flex justify-between bg-transparent p-6'>
         <section>
           <Link href='#'>
             <h1>sunnyside</h1>
