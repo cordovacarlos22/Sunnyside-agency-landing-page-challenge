@@ -5,20 +5,13 @@ import arrow from '@/images/icon-arrow-down.svg';
 
 const Header = () => {
   return (
-    <header className=' h-screen bg-[url("../images/desktop/image-header.jpg")] bg-cover flex flex-col  text-white '>
+    <header className=' h-screen bg-[url("../images/mobile/image-header.jpg")] md:bg-[url("../images/desktop/image-header.jpg")] bg-cover bg-center bg-no-repeat  flex flex-col  text-white   '>
       <Nav />
-      <section className='uppercase flex flex-col justify-center items-center pt-12 lg:gap-20'>
-        <h1 className='md:text-lg lg:text-4xl tracking-widest font-bold'>We are creatives</h1>
-        <Image src={arrow} alt='arrow image' />
-      </section>
-      <section className='flex flex-col items-center justify-normal pt-24'>
-        
-        
-        
-        <section>
-          
-        </section>
-      </section>
+      <h1 className=' justify-center text-center items-center text-4xl tracking-widest font-bold'>We are creatives</h1>
+      <section className='flex flex-col'>
+        <Image className='  ' src={arrow} alt='arrow image' />
+      </section> 
+      
     </header>
   )
 }
