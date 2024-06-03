@@ -1,12 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
+import logoSvg from '@/images/logo.svg'
+import Image from 'next/image'
 const nav = () => {
   return (
     <>
       <nav id='desktop-nav' className='hidden md:flex justify-between bg-transparent p-6'>
         <section>
           <Link href='#'>
-            <h1>sunnyside</h1>
+            <Image src={logoSvg} alt="logo" />
           </Link>
         </section>
         <section>
