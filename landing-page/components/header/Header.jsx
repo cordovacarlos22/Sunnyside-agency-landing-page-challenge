@@ -11,7 +11,6 @@ const Header = () => {
       <section className='flex flex-col'>
         <Image className='  ' src={arrow} alt='arrow image' />
       </section> 
-      
     </header>
   )
 }
